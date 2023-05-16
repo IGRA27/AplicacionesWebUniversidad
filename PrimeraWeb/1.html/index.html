@@ -1,0 +1,154 @@
+<!DOCTYPE html> <!--estructura global-->
+<!--    HTML     <etiqueta atributo = "Valor">        contenido    <etiqueta>-->
+<html lang="en"> <!--raiz de la estructura-->
+<!--informacion General y metadatos    informacion no visible-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "descripcion" content="Ejemplo">    
+    <meta name ="keywords" content="web, aplicaciones">
+    <title>Mi pagina </title>
+    <link rel="shortcut icon" href="web.png"> 
+</head> <!--contenido del sitio web-->
+<!--informacion no visible-->
+<body>
+    <!--cabecera-->
+<header id="Elemento">
+
+    <h1>Titulo</h1>
+</header>
+<!--Barra de navegación-->
+<nav>
+    <u1>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </u1>
+</nav>
+<!--informacion principal-->
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ullam dignissimos accusantium cum commodi omnis blanditiis, consectetur repellat, unde modi natus expedita! Optio inventore cupiditate quisquam id quos labore iusto!
+</p>
+<!--textos
+    titulos
+    parrafos
+    citas
+    tablas 
+    formularios -->
+<hgroup>
+<h1>Pagina de la clase</h1>
+<h2> Texto en h2</h2>
+<h3> Texto en h3</h3>
+<h4> Texto en h4</h4>
+<h5> Texto en h5</h5>
+<h6> Texto en h6</h6>
+</hgroup>
+<p>
+    <mark><small>Lorem</small></mark><b><u>ipsum dolor sit amet consectetur</u></b>, <i>adipisicing elit.</i> Labore veniam eos odio, <code>impedit vitae inventore excepturi amet</code>, nulla iusto vel doloremque aspernatur animi sunt expedita temporibus voluptates voluptate! Pariatur, cum.
+</p>
+<p>
+   <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</strong> <em>Nihil assumenda dicta</em>  neque saepe nisi <cite>recusandae sed corporis</cite> est velit officiis <span>blanditiis ullam earum</span> reiciendis harum tempora, labore cumque! Aut.
+</p>
+
+<table border="2">
+    <caption>
+        Titulo de la Tabla
+    </caption>
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Apellido
+            </th>
+        </tr>
+    </thead>
+    <tr>
+        <td>Nombre</td>
+        <td>Apellido</td>
+    </tr>
+    <tr>    
+        <td colspan="2">Luis</td>
+        <td>Perez</td>
+        <td>Quito</td>
+    </tr>
+    <tr>    
+        <td>Andres</td>
+        <td>Perez</td>
+    </tr>
+</tbody>
+<tfoot>
+
+</tfoot>
+</table>
+<br/>
+<br>
+<form>
+    <label for="Nombre">Nombre:</label>
+    <input type="text" id="Nombre"/>
+    <label for="Apellido">Apellido:</label>
+    <input type="text" id="Apellido"/>
+    <label for="Combre">Correo:</label>
+    <input type="text" id="Correo"/>
+
+    <label for="Edad">Edad:</label>
+    <input type="number" id="Edad"/>
+    <label for="Fecha">Fecha:</label>
+    <input type="date" id="Fecha"/>
+    <label for="Genero">Masculino:</label>
+    <input type="radio" id="Genero"/>
+    <label for="Genero">Femenino:</label>
+    <input type="radio" id="Genero"/>
+    <label for="pass">Contraseña:</label>
+    <input type="password" id="pass"/>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</form>
+<!--
+    enlaces
+    listas
+    multimedia
+
+-->
+<!--Enlaces INTERNOS Y EXTERNOS-->
+<a name="header">Texto de enlace</a>
+<a href="https://www.epn.edu.ec" title="Enlace EPN" alt="enlace" target="_blank">EPN</a>
+<!--LISTAS- ORDENADAS Y DESORDENADAS-->
+<ol>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+</ol>
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+</ul>
+<!--Multimedia-->
+<img src="https://miro.medium.com/v2/resize:fit:1200/0*Dg5rBCkbFdM0vSUS" width="120px" height="20px" alt="Texto alternativo" title="React">
+<img src="web.png" width="120px">
+<picture>
+    <source srcset="web.png">
+</picture>
+<video src="videoChino.mp4.mp4" controls></video>
+<!--iframe video externo y ubicacion-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zuvI06ORKrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<audio src="audio.mp3" controls></audio>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255346.26742052965!2d-78.52965906966483!3d-0.23265148651365872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a107e1cd44b%3A0x88a284f66939ed4!2sESCUELA%20POLIT%C3%89CNICA%20NACIONAL!5e0!3m2!1ses!2sec!4v1684158781638!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<object data="holaMundo.html"></object>
+<!--barra lateral-->
+<!--pie de pagina-->
+<footer>
+    <h2>Contactos</h2>
+    Derechos Reservados
+    <address>
+        Quito
+    </address>
+</footer>
+</body>
+</html>
+
+

@@ -1,0 +1,195 @@
+/*<style type="text/css">
+    body{
+        background: burlywood;
+    }
+
+    h1{
+        color:white;
+        font-family: Impact;
+    }
+
+    nav{
+        color: blue;
+        font-size: 25px;
+    }
+    main{
+        background-color: coral;
+        
+    }
+    main section{
+    color: yellow;
+        
+    }
+    aside{
+        background-color: black;
+        color: white;
+    }
+    footer{
+        background-color: red;
+        color: white;
+    }
+</style>
+*/
+
+/*
+Comentarios
+CSS
+Componente basico de un estilo CSS
+|<------->|Regla CSS
+|<-->|Selector
+     |<-->|Declaracion
+       |<-->|Propiedad
+          |<-->|valor
+*/
+h1 {
+    color: red;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*
+EN CSS3 se incluy 239 propiedades
+*/
+/*
+Selector universal: eliminar el margen y relleno
+*/
+*{
+    margin: 0; padding: 0;
+}
+/*Selector de tipo o etiqueta  */
+nav{
+    color: blue;font-size: 20px;font-family: sans-serif;
+}
+
+/*Selector descendente, elementos dentro de otros*/
+article{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 20px;
+    color: green;
+
+}
+article span{
+    color: red;
+
+}
+
+article span a{
+    color: black;
+    text-decoration: none;
+    background-color: aqua;
+    font-size: 50px;
+}
+/*Selector de clase  - Aplicar estilos mediante el atributo class */
+.destacado{
+    color:orange;
+    font-weight: bold;
+    background: green;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    background: white;
+
+}
+
+.alerta{
+    color: black;
+    padding: 5px;
+    border: 5px solid black;
+    background: yellow;
+}
+
+/*Selector por id*/
+#destacado{
+    background-color: coral;
+}
+div#destacado{
+    background-color: green;
+}
+/*Combinacion de selectores 
+.destacado .alerta .error{}
+div.alerta{}
+span.miClase{}
+
+UNIDADS DE MEDIDA
+in pulgadas
+cm centimetros
+mm milimetros
+pt puntos
+pc picas
+
+0.5in->.5in
+
+Unidades relativas
+    em no la etiqueta <em>, esta es relativa al tamaño de la letra
+    ex respecto a la altura de la letra x
+    px pixel respecto a la resolucion de la pantalla del dispositivo
+
+Porcentajes 
+h1{font-size: 50%;}
+
+Colores
+--palabras clave en ingles
+red,blue, white...
+
+--RGB decimal
+hace referencia RGB y CYMK
+valores entre 0 y 255
+p {color: rgb(15,20,150;)}
+
+--RGB porcentual
+p{color: rgb(15%,20%,10%;)}
+
+-RGB Hexadecimal
+p{color: #334AB15}  //->p {color: #3A3;}
+*/
+
+footer{
+    color: #15ABD0;
+
+}
+/*
+cuando insertas una etiqueta html se crea una caja de forma
+automatica
+las cajas no son visibles simple vista, inicialmente no tienen color de fondo
+ni borde
+Los navegadores las colocan de forma automatica, pero con CSS es posible modificar
+sus caracteristicas
+
+ las partes de una caja
+contenido (content)
+relleno (padding)
+borde (border)
+imagen de fondo (background-image)
+color de fondo (background-color)
+margen (margin) separacion entre la caja y el resto de cajas adyacentes
+ el relleno y margen son transparentes
+
+ ALTURA
+height
+min- max-
+
+ANCHURA 
+width
+
+ MARGEN
+margin-top, margin-bottom, margin-left, margin-right
+
+ RELLENO
+padding--top, padding-bottom, padding-roght, padding-left
+
+ BORDES
+border
+*/
+
+div{
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 30px;
+    margin-left: 80px;
+    margin-right: 30px;
+    border: 5px solid black;
+}
+/*
+FONDOS
+background-color
+background-image->url
+*/
