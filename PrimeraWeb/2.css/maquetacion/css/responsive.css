@@ -1,0 +1,119 @@
+@media (max-width:1460px){
+    .wrap{
+        width: 90px;
+    }
+    #menu ul li{
+        font-size: 20px;
+    }
+    #banner{
+        height: 350px;
+    }
+    #banner h1{
+        width: 100%;
+        float: right;
+        font-size: 35px;
+        text-align: center;
+        margin-right: -117px;
+        margin-top: 280px;
+
+    }
+    #footer.wrap>div{
+        width: 27%;
+    }
+
+}
+@media(max-width:1080px){
+    #menu #titulo{
+        font-size: 18px;
+    }
+    #menu ul li{
+        font-size: 18px;
+        margin: 1px auto;
+        padding: 10px;
+    }
+    #banner h1{
+        font-size: 25px;
+        text-align: left;
+    }
+    .card{
+        width: 18%;
+        
+    }
+    #about article .category{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    #noticias article{
+        width: 43%;
+    }
+    
+    #gallery .element{
+        width: 29%;
+    }
+    #footer{
+        margin-top: 10px;
+    }
+    #footer .wrap>div{
+        width: 25%;
+    }
+
+}@media (max-width:1460px){
+    .wrap{
+        width: 90px;
+    }
+    #menu ul li{
+        font-size: 20px;
+    }
+    #banner{
+        height: 350px;
+    }
+    #banner h1{
+        width: 100%;
+        float: right;
+        font-size: 35px;
+        text-align: center;
+        margin-right: -117px;
+        margin-top: 280px;
+
+    }
+    #footer.wrap>div{
+        width: 27%;
+    }
+
+}
+@media(max-width:1080px){
+    #menu #titulo{
+        font-size: 18px;
+    }
+    #menu ul li{
+        font-size: 18px;
+        margin: 1px auto;
+        padding: 10px;
+    }
+    #banner h1{
+        font-size: 25px;
+        text-align: left;
+    }
+    .card{
+        width: 18%;
+        
+    }
+    #about article .category{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    #noticias article{
+        width: 43%;
+    }
+    
+    #gallery .element{
+        width: 29%;
+    }
+    #footer{
+        margin-top: 10px;
+    }
+    #footer .wrap>div{
+        width: 25%;
+    }
+
+}

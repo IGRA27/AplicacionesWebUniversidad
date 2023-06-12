@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-5.3.0/dist/css/bootstrap.min.css">
+    <title>Boostrap - tablas, formularios, menus</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bootstrap - tablas, formularios, menus</h1>
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th class="text-primary">Nombre</th>
+                    <th class="text-primary">Edad</th>
+                    <th class="text-primary">Pais</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="">
+                    <td>Carlos</td>
+                    <td>25</td>
+                    <td>Mexico</td>
+                </tr>
+                <tr class="">
+                    <td>Luis</td>
+                    <td>23</td>
+                    <td>Ecuador</td>
+                </tr>
+                <tr class="">
+                    <td>Andrea</td>
+                    <td>22</td>
+                    <td>Brasil</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Formularios</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre">
+            </div>
+            
+            <div class="form-group">
+                <label for="edad">Edad</label>
+                <input type="text" name="edad">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <h2>Menus</h2>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#">Enlace 1</a></li>
+            <li class="nav-item"><a href="#">Enlace 2</a></li>
+            <li class="nav-item"><a href="#">Enlace 3</a></li>  
+        </ul>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+    </div>
+</body>
+
+</html>
