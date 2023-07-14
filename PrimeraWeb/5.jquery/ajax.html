@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="js/03-efectos.js"></script>
+    <style>
+        #datos{
+            border: 2px solid black;
+            width: 250px;
+            height: 250px;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h1>JQuery - Ajax</h1>
+    <form action="https://reqres.in/api/users" method="POST" id="formulario">
+        Nombre: <input type="text" name="nombre">
+        Sitio web: <input type="text" name="sitio">
+        <input type="submit" value="Enviar">
+    </form>
+    <div id="datos"></div>
+    
+</body>
+</html>

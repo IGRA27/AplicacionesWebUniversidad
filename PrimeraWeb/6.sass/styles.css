@@ -1,0 +1,129 @@
+body {
+  background-color: #a7874d;
+  color: white;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+p {
+  color: #981919;
+}
+
+.caja {
+  border: 1px solid black;
+  width: 300px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: green;
+  padding: 10px;
+}
+.caja h1 {
+  color: blue;
+}
+.caja p {
+  color: pink;
+}
+.caja .info {
+  font-size: 20px;
+}
+.caja .info .autor {
+  font-size: 15px;
+  color: aqua;
+}
+
+/*@mixin crearBordes(){
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+*/
+.caja {
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px red;
+}
+
+.listado {
+  border: 5px solid orange;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px yellow;
+}
+
+.alert-success, .alert-danger, .alert {
+  border: 1px solid gray;
+  background: #eee;
+  color: gray;
+  padding: 10px;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.alert-danger {
+  color: red;
+  border-color: red;
+}
+
+.alert-success {
+  color: green;
+  border-color: green;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.cajas {
+  width: 40px;
+}
+
+h1 {
+  font-size: 69px;
+}
+
+h1 {
+  color: salmon;
+}
+
+.listado ul li:nth-child(1) {
+  font-size: 20px;
+}
+
+.listado ul li:nth-child(2) {
+  font-size: 40px;
+}
+
+.listado ul li:nth-child(3) {
+  font-size: 60px;
+}
+
+.listado ul li:nth-child(4) {
+  font-size: 80px;
+}
+
+.listado ul li:nth-child(5) {
+  font-size: 100px;
+}
+
+.listado ul li:nth-child(6) {
+  font-size: 120px;
+}
+
+.listado ul li:nth-child(7) {
+  font-size: 140px;
+}
+
+.listado ul li:nth-child(8) {
+  font-size: 160px;
+}
+
+.listado ul li:nth-child(9) {
+  font-size: 180px;
+}
+
+.listado ul li:nth-child(10) {
+  font-size: 200px;
+}
+
+/*# sourceMappingURL=styles.css.map */

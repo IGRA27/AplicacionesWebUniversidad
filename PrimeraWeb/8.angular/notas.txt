@@ -1,0 +1,10 @@
+1.Instalacion
+1.1.NodeJs
+1.2. Angular
+npm install -g @angular/cli
+ng version
+2. crear proyecto
+ng new aprendiendo-angular-angular
+3. ejecut
+npm start
+ng serve
