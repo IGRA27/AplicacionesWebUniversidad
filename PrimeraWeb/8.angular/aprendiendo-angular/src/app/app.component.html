@@ -1,2 +1,16 @@
 <h1>Mi aplicación</h1>
 <h2>{{title}}</h2>
+<!--
+<libro></libro>
+<app-contacto></app-contacto>
+<app-home></app-home>
+<app-externo></app-externo>
+<libro></libro>-->
+<nav>
+    <a [routerLink]="'/home'" [routerLinkActive]="'active'">Home</a> &nbsp;
+    <a [routerLink]="'/libro'" [routerLinkActive]="'active'">Libro</a> &nbsp;
+    <a [routerLink]="'/zapatilla'" [routerLinkActive]="'active'">Zapatilla</a> &nbsp;
+    <a [routerLink]="'/externo'" [routerLinkActive]="'active'">Externo</a> &nbsp;
+    <a [routerLink]="'/contacto'" [routerLinkActive]="'active'">Contacto</a>
+</nav>
+<router-outlet></router-outlet>

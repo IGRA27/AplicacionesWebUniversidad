@@ -8,3 +8,59 @@ ng new aprendiendo-angular-angular
 3. ejecut
 npm start
 ng serve
+
+[07:47 a. m.] HERNAN DAVID ORDONEZ CALERO
+    1. Intalación
+1.1 NodeJs
+1.2 Instalar angular
+npm install -g @angular/cli
+//desinstalar
+npm uninstall -g @angular/cli
+1.3 Ver la versión
+ng --version / ng version
+2. crear un proyecto
+ng new aprendiendo-angular
+3. ejecutar el proyecto
+npm start
+ng serve
+
+//estructura de los archivos y directorios
+tsinst configuración de angular
+tsconfig config de ts
+readme documentacion
+package config principal del proyecto, script y comandos fundamentales de desarrollo
+angular mas configuraciones para scripts o librerias externas que no sean propias de angular
+gitignore para no commiter ciertos directorios del proyecto
+editorconfig para ciertos editores de codigo
+e2e para temas de pruebas y config internas del framework
+nodemodules donde se descargan todos los paquetes, librerias y dependencias de angular, es el core del framework
+src tiene varias ficheros de configuracion ts index que es la pagina que nos carga
+    polyfills para config de navegadores, karma para pruebas
+    assets donde guardamos la imagenes y de mas archivos externos
+    environments ambientes de produccion
+    app donde reside la aplicacion, se tiene un modulo llamado AppComponent, aqui trabajaremos
+//elementos de aplicacion de angular
+angular esta formado por componentes, plantillas, decoradores, servicios, providers y modulos
+--componentes
+es una parte de la aplicacion controla una parte de la vista
+todo lo que se ve es gestionado y controlado por este tipo de elementos
+la logica de un componente dentro de una clase en angular es dar soporte a una vista
+interactuando con ella a traves de un API co propiedades y metodos
+el componente es mediador entre la vista a traves de una plantilla y la logica de la app
+donse se incluye el modelo de datos como un controlador
+--plantillas
+son las vistas de los componentes en html y tienen sintaxis de angular
+--decoradores y metadatos
+los decorados son patrones de diseño, se pueden configurar de forma dinamica atributos/
+metadatos de las clases y componentes
+los metadatos describen a las clases y las relaciones
+--servicios que son clases con un objetivo de reutilizacion
+permiten inyeccion de dependencias en otro componentes
+--providers que son servivios que proveen datos o funcionalidades mediante funciones o metodos
+--directivas que son funcionalidades aplicables al DOM y elementos HTML en las plantillas
+las directivas pueden servir para controlar un elemento HTML (estilo, condicion, interaccion)
+//para crear componentes se puede usar la consola o crear uno a uno los archivos
+//cuando se genera automaticamente se llama scaffolding
+ng generate component nombreComponente
+pipes o filtros son pequeñas funcionalidades para cambiar la vista
+<https://teams.microsoft.com/l/message/19:743bc182bc894e70b1afef151a3da428@thread.tacv2/1690289250202?tenantId=682a4e6a-a77f-4958-a3ac-9e266d18aa37&amp;groupId=dcacf29d-8db1-40d3-bafa-80d90b19d755&amp;parentMessageId=1690265522996&amp;teamName=2023A-ISWD613-GR1CC - Aplicaciones web&amp;channelName=11. Semana 11&amp;createdTime=1690289250202&amp;allowXTenantAccess=false>
