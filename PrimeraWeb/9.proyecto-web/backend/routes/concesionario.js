@@ -17,7 +17,7 @@ router.delete('/autos/:id', ConcesionarioController.deleteAuto);
 //actualizar info
 router.put('/autos/:id', ConcesionarioController.updateAuto);
 //agregar imagenes:
-router.post('/subir-imagn/:id', multiPartMiddleWare, ConcesionarioController.uploadImage);
+router.post('/subir-imagen/:id', multiPartMiddleWare, ConcesionarioController.uploadImagen);
 //Recuperar imagenes:
 router.get('/obtener-imagen/:imagen', ConcesionarioController.getImagen);
 

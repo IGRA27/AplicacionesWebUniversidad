@@ -58,3 +58,14 @@ npm install mongoose --save
 
 //pquete para refrescar el servidor
 npm install nodemon --save-dev
+
+
+//1. Crear todos los componentes necesarios:
+ng g component components/autos
+ ng g component components/contacto
+ ng g component components/createauto
+ ng g component components/detalleauto
+ ng g component components/editarauto 
+ ng g component components/encabezado
+ ng g component components/pie
+ ng g component components/home
